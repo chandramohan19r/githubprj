@@ -1,0 +1,10 @@
+name: my first workflow in action 
+
+on: [push]
+
+jobs:
+  first-job run:
+    runs-on: ubuntu-latest
+    steps:
+        -name: hello chandramohan
+         run: echo "my first workflow is running successfully"
